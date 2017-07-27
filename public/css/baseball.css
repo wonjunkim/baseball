@@ -1,0 +1,36 @@
+html, body, p, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a, a:hover, a:active {
+  text-decoration: none;
+  color: #000;
+}
+
+/* 야구 게임 맵 */
+.baseball_map {
+  width: 100%;
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+.baseball_map tr,
+.baseball_map td {
+  border: 1px solid #000;
+  border-collapse: collapse;
+  text-align: center;
+  vertical-align: middle;
+}
+.baseball_input_area {
+  text-align: center;
+}
+.baseball_btn_area {
+  text-align: center;
+}
+.baseball_input {
+  width: 50px;
+}
